@@ -12,6 +12,11 @@ sections:
         image:
           filename: hero.jpg
           size: contain  # Show entire image, no cropping
+        gradient:
+          type: linear
+          start: 'rgba(128,128,128,0.2)'
+          end: 'transparent'
+          direction: 180
         text_color: light
         brightness: 0.55
       spacing:
@@ -57,7 +62,7 @@ sections:
         <li class="pt-2">For more news, visit our <a href="/news/" class="underline font-semibold text-blue-600">archive</a>.</li>
         </ul>
         <div>
-        <img src="/media/addgene.jpg" alt="Addgene Blue Flame Award" class="rounded-lg shadow-md w-full object-cover">
+        <img src="/media/addgene_award.jpg" alt="Addgene Blue Flame Award" class="rounded-lg shadow-md w-full object-cover">
         </div>
         </div>
 
@@ -68,12 +73,11 @@ sections:
 
         <script type="text/javascript" src="https://www.juicer.io/embed/anthony-k-l-leung/embed-code.js" async defer></script>
         <noscript>
-          <iframe src="https://www.juicer.io/api/feeds/anthony-k-l-leung/iframe?per=9" frameborder="0" height="600" width="100%" title="LinkedIn Feed"></iframe>
+          <iframe src="https://www.juicer.io/api/feeds/anthony-k-l-leung/iframe?per=3" frameborder="0" height="340" width="100%" title="LinkedIn Feed"></iframe>
         </noscript>
         <div style="text-align: center; margin-top: 16px;">
           <a href="https://www.linkedin.com/company/anthony-k-l-leung/" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #0077b5; color: #ffffff; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;">Follow us on LinkedIn</a>
         </div>
-        
         </div>
         </div>
     design:
