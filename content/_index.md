@@ -11,12 +11,6 @@ sections:
       background:
         image:
           filename: hero.jpg
-          size: contain  # Show entire image, no cropping
-        gradient:
-          type: linear
-          start: 'rgba(128,128,128,0.2)'
-          end: 'transparent'
-          direction: 180
         text_color: light
         brightness: 0.55
       spacing:
@@ -70,10 +64,9 @@ sections:
 
         <div class="lg:col-span-1">
         <h2 class="text-xl font-bold mb-4">LinkedIn Feed</h2>
-
         <script type="text/javascript" src="https://www.juicer.io/embed/anthony-k-l-leung/embed-code.js" async defer></script>
         <noscript>
-          <iframe src="https://www.juicer.io/api/feeds/anthony-k-l-leung/iframe?per=3" frameborder="0" height="340" width="100%" title="LinkedIn Feed"></iframe>
+          <iframe src="https://www.juicer.io/api/feeds/anthony-k-l-leung/iframe?per=3" frameborder="0" height="375" width="100%" title="LinkedIn Feed"></iframe>
         </noscript>
         <div style="text-align: center; margin-top: 16px;">
           <a href="https://www.linkedin.com/company/anthony-k-l-leung/" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #0077b5; color: #ffffff; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;">Follow us on LinkedIn</a>
