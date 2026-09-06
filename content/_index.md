@@ -11,6 +11,7 @@ sections:
       background:
         image:
           filename: hero.jpg
+          size: contain  # Show entire image, no cropping
         text_color: light
         brightness: 0.55
       spacing:
@@ -63,14 +64,14 @@ sections:
         </div>
 
         <div class="lg:col-span-1">
-        <h2 class="text-xl font-bold mb-4">Twitter Feed</h2>
+        <h2 class="text-xl font-bold mb-4">LinkedIn Feed</h2>
 
-        {{< x user="LeungLab" id="2046967268610031642" >}}
-        {{< x user="LeungLab" id="2042334242466635955" >}}
-        {{< x user="LeungLab" id="2041563711198949477" >}}
-
+        <script type="text/javascript" src="https://www.juicer.io/embed/anthony-k-l-leung/embed-code.js" async defer></script>
+        <noscript>
+          <iframe src="https://www.juicer.io/api/feeds/anthony-k-l-leung/iframe?per=9" frameborder="0" height="600" width="100%" title="LinkedIn Feed"></iframe>
+        </noscript>
         <div style="text-align: center; margin-top: 16px;">
-          <a href="https://twitter.com/intent/follow?screen_name=LeungLab" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #0284c7; color: #ffffff; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;">Follow @LeungLab</a>
+          <a href="https://www.linkedin.com/company/anthony-k-l-leung/" target="_blank" rel="noopener" style="display: inline-block; padding: 10px 20px; background-color: #0077b5; color: #ffffff; font-weight: 600; font-size: 14px; border-radius: 6px; text-decoration: none;">Follow us on LinkedIn</a>
         </div>
         
         </div>
